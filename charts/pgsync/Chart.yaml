@@ -1,0 +1,27 @@
+apiVersion: v2
+icon: https://zbytes.github.io/img/logo.png
+name: pgsync
+description: A Helm chart for Kubernetes with AWS ECR
+type: application
+
+# This is the chart version. This version number should be incremented each time you make changes
+# to the chart and its templates, including the app version.
+# Versions are expected to follow Semantic Versioning (https://semver.org/)
+version: 1.0.0
+
+# This is the version number of the application being deployed. This version number should be
+# incremented each time you make changes to the application. Versions are not expected to
+# follow Semantic Versioning. They should reflect the version the application is using.
+appVersion: 1.0.0
+
+maintainers:
+  - name: zbytes
+    email: bot.bhuwan@gmail.com
+    url: https://bhuwanupadhyay.github.io/cv/
+keywords:
+  - pgsync
+  - postgres
+  - elasticsearch
+  - ETL
+sources:
+  - https://github.com/zbytes/helm-charts/tree/master/charts/pgsync
