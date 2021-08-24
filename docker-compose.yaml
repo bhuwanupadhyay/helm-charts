@@ -5,3 +5,8 @@ services:
     build:
       context: docker/ecr-creds
       dockerfile: Dockerfile
+  pgsync:
+    image: docker.io/zbytes/pgsync:1.0.0
+    build:
+      context: docker/pgsync
+      dockerfile: Dockerfile
